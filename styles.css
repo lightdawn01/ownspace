@@ -10,3 +10,16 @@
   border-bottom: lightgrey;
   background-color: pink;
 }
+
+.right-section
+{
+  display: flex;
+}
+
+.middle-section {
+  display: flex;
+}
+
+.left-section {
+  display: flex;
+}
