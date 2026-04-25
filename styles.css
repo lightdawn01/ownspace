@@ -17,7 +17,7 @@ body {
 
 .right-section
 {
-  display: flex;
+  display: block;
   align-items: center;
 }
 
