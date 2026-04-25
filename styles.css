@@ -24,6 +24,7 @@ body {
   line-height: 5px;
   color: lightgrey;
   text-size: 15px;
+  background-color: pink;
 }
 
 .middle-section {
@@ -32,13 +33,13 @@ body {
   align-items: center;
   color: lightgrey;
   text-size: 20px;
-
+background-color: lightblue;
 }
 
 
 .left-section {
   display: flex;
-  
+  background-color: pink;
 }
 
 .profile-picture {
