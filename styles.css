@@ -18,8 +18,7 @@ body {
 
 .right-section
 {
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
   margin-left: 25px;
   line-height: 5px;
@@ -30,7 +29,6 @@ body {
 
 .middle-section {
   display: flex;
-  flex: 1;
   align-items: center;
   color: lightgrey;
   text-size: 20px;
