@@ -22,7 +22,7 @@ body {
   align-items: center;
   margin-left: 25px;
   line-height: 5px;
-  color: lightgrey;
+  color: rgb(115, 115, 115);
   text-size: 15px;
   background-color: pink;
 }
@@ -30,7 +30,7 @@ body {
 .middle-section {
   display: flex;
   align-items: center;
-  color: lightgrey;
+  color: rgb(115, 115, 115);
   text-size: 20px;
 background-color: lightblue;
 }
