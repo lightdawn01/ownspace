@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  height: 33px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,14 +11,18 @@ body {
   top: 0px;
   right: 0px;
   left: 0px;
-  border-bottom: lightgrey;
-  background-color: pink;
+  border-bottom-color: lightgrey;
+  border-bottom-style: solid;
+  border-bottom-weight: 1px;
 }
 
 .right-section
 {
   display: block;
   align-items: center;
+  margin-left: 20px;
+  line-height: 5px;
+  
 }
 
 .middle-section {
