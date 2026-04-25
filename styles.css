@@ -23,3 +23,7 @@
 .left-section {
   display: flex;
 }
+
+.image-profile {
+  height: 50px;
+}
