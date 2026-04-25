@@ -1,3 +1,7 @@
+.body {
+  height: 3000px;
+}
+
 .header {
   height: 33px;
   display: flex;
