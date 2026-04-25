@@ -1,2 +1,5 @@
 header {
-  height
+  height: 33px;
+  display: flex;
+  position: fixed;
+  top: 0px;
