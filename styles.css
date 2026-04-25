@@ -17,14 +17,14 @@ body {
   border-bottom-width: 1px;
 }
 
-.right-section
+.left-section
 {
   display: block;
   align-items: center;
   margin-left: 25px;
   line-height: 5px;
   color: rgb(115, 115, 115);
-  text-size: 15px;
+  text-size: 13px;
   background-color: pink;
 }
 
@@ -37,7 +37,7 @@ background-color: lightblue;
 }
 
 
-.left-section {
+.right-section {
   display: flex;
   background-color: pink;
 }
