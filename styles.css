@@ -42,5 +42,8 @@ background-color: lightblue;
 }
 
 .profile-picture {
-  height: 50px;
+  height: 40px;
+  margin-right: 25px;
+  margin-top: 5px;
+  border-radius: 20px;
 }
