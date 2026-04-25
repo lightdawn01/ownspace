@@ -18,14 +18,18 @@ body {
 .right-section
 {
   display: flex;
+  align-items: center;
 }
 
 .middle-section {
   display: flex;
+  align-items: center;
 }
+
 
 .left-section {
   display: flex;
+  
 }
 
 .profile-picture {
