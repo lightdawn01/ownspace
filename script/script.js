@@ -10,5 +10,7 @@ document.getElementById('today-date').textContent = todayDate;
 const todayTime = now.format('HH:mm');
 document.getElementById('today-time').textContent = todayTime;
 }
+
 setInetrval(updateDateTime, 1000);
+
 updateDateTime();
