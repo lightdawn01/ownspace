@@ -11,6 +11,6 @@ const todayTime = now.format('HH:mm');
 document.getElementById('today-time').textContent = todayTime;
 }
 
-setIntetrval(updateDateTime, 1000);
+setInterval(updateDateTime, 1000);
 
 updateDateTime();
