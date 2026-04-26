@@ -21,7 +21,7 @@ body {
 {
   display: block;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 30px;
   line-height: 5px;
   color: rgb(115, 115, 115);
   text-size: 8px;
@@ -45,7 +45,7 @@ background-color: lightblue;
 
 .profile-picture {
   height: 40px;
-  margin-right: 25px;
+  margin-right: 30px;
   margin-top: 10px;
   border-radius: 20px;
 }
