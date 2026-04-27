@@ -35,7 +35,7 @@ const button  = document.querySelector(".js-color-wheel");
 
 /* YouTube Window */
 
-const youtubeButton = document.querySelector(.js-youtube
+const youtubeButton = document.querySelector(.js-youtube-
       
       function openWindow() {
       document.querySelector(".js-youtube-link").style.display = "block";
