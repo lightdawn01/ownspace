@@ -16,7 +16,7 @@ setInterval(updateDateTime, 1000);
 updateDateTime();
 
 
-const button  = document.querySelector("js-color-wheel");
+const button  = document.querySelector(".js-color-wheel");
 
       function random(number) {
         return Math.floor(Math.random() * (number +1));
