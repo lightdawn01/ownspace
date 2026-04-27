@@ -36,11 +36,11 @@ const button  = document.querySelector(".js-color-wheel");
 /g YouTube Window */
 
 function openWindow() {
-      document.getElementById(".js-youtube-link").style.display = "block";
+      document.querySelector(".js-youtube-link").style.display = "block";
 }
 
 function closeWindow () {
-      document.getElementById(".js-youtube-link").style.display = "none";
+      document.querySelector(".js-youtube-link").style.display = "none";
 }
 
 
