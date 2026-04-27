@@ -33,9 +33,11 @@ const button  = document.querySelector(".js-color-wheel");
       });
 
 
-/g YouTube Window */
+/* YouTube Window */
 
-function openWindow() {
+const youtubeButton = document.querySelector(.js-youtube
+      
+      function openWindow() {
       document.querySelector(".js-youtube-link").style.display = "block";
 }
 
