@@ -1,3 +1,21 @@
 .footer {
-  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+ right: 0;
+  height: 55px;
+
+}
+
+.footer-link{
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-link img{
+height: 24px;
+  margin-bottom: 4px;
 }
