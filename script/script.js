@@ -1,3 +1,5 @@
+/* Day and Time Update */
+
 import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
 
 function updateDateTime() {
@@ -15,15 +17,15 @@ setInterval(updateDateTime, 1000);
 
 updateDateTime();
 
-
+/* Color Wheel Body Change */
 const button  = document.querySelector(".js-color-wheel");
 
-      function random(number) {
-        return Math.floor(Math.random() * (number +1));
+      function random(min, max) {
+        return Math.floor(Math.random() * (max - min  +1) + min);
       }
 
       button.addEventListener("click", () => {
-       const randomColorBody = `rgb(${random(255)} ${random(255)} ${random(255)})`;
-        document.body.style.backgroundColor = randomColorBody;
+       const [r, g, b] = [random(200, 255), random(200, 255), random(200, 255)]
+        document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
   
       });
