@@ -17,7 +17,9 @@ setInterval(updateDateTime, 1000);
 
 updateDateTime();
 
+
 /* Color Wheel Body Change */
+
 const button  = document.querySelector(".js-color-wheel");
 
       function random(min, max) {
@@ -29,8 +31,17 @@ const button  = document.querySelector(".js-color-wheel");
         document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
   
       });
+
+
+/g YouTube Window */
+
 function openWindow() {
-      document.getElementById("
+      document.getElementById(".js-youtube-link").style.display = "block";
+}
+
+function closeWindow () {
+      document.getElementById(".js-youtube-link").style.display = "none";
+}
 
 
 
