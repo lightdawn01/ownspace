@@ -29,3 +29,14 @@ const button  = document.querySelector(".js-color-wheel");
         document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
   
       });
+function openWindow() {
+      document.getElementById("
+
+
+
+
+
+
+
+
+
