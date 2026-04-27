@@ -7,6 +7,7 @@
  right: 0;
   height: 55px;
 background-color: pink;
+  border: 1px solid lightgrey;
 }
 
 .footer-link{
