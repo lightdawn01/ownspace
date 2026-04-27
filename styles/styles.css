@@ -24,7 +24,7 @@ body {
   margin-left: 30px;
   line-height: 5px;
   color: rgb(115, 115, 115);
-  text-size: 8px;
+  font-size: 8px;
   background-color: pink;
 }
 
@@ -32,9 +32,9 @@ body {
   display: flex;
   align-items: center;
   color: rgb(115, 115, 115);
-  text-size: 20px;
+  font-size: 20px;
 background-color: lightblue;
-  text-weight: bold;
+  font-weight: bold;
 }
 
 
