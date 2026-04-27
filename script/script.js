@@ -35,15 +35,22 @@ const button  = document.querySelector(".js-color-wheel");
 
 /* YouTube Window */
 
-const youtubeButton = document.querySelector(.js-youtube-
-      
-      function openWindow() {
-      document.querySelector(".js-youtube-link").style.display = "block";
-}
+const youtubeButton = document.querySelector(".js-youtube-link");
+const youtubeWindow = document.querySelector(".js-youtube-link-popup");
+const closeButton = document.querySelector(".js-youtube-link-popup-close");
 
-function closeWindow () {
-      document.querySelector(".js-youtube-link").style.display = "none";
-}
+youtubeButton.addEventListener("click", () => {
+      youtubeWindow.style.display = "block";
+});
+
+closeButton.addEventListener("click", (event) => {
+      event.stopPropagation();
+      youtubeWindow.style.display = "none";
+});
+
+
+
+      
 
 
 
