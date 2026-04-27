@@ -22,15 +22,3 @@ background-color: pink;
 height: 35px;
   background-color: lightpink;
 }
-
-
-.js-youtube-link-popup {
-  width: 200px;
-  height: 100px;
-  display: none;
-  position: fixed;
-  bottom: 100px;
-  right: 150px;
-  border: 3px solid lightgrey;
-  z-index: 100;
-}
