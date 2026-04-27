@@ -1,6 +1,6 @@
 body {
   margin-top: 3000px;
-  font-family: 'Open Sans', Ariel;
+  font-family: 'Open Sans', Arial;
 }
 
 .header {
@@ -44,6 +44,13 @@ background-color: lightblue;
 }
 
 .profile-picture {
+  height: 40px;
+  margin-right: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.color-wheel {
   height: 40px;
   margin-right: 30px;
   margin-top: 10px;
