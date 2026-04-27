@@ -4,7 +4,7 @@
   bottom: 0;
  right: 0;
   height: 55px;
-
+background-color: pink;
 }
 
 .footer-link{
@@ -13,9 +13,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background-color: lightblue;
 }
 
 .footer-link img{
 height: 24px;
   margin-bottom: 4px;
+  background-color: lightpink;
 }
